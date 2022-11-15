@@ -1,0 +1,76 @@
+/* Elementos da classe menu */
+.menu {
+    width: 20%;
+    float: left;
+    background-color: #538166;
+    height: 588vh;
+}
+
+/* Elementos da classe img */
+.img {
+    border-radius: 4px;
+    width: 450px;
+}
+
+/* Elementos da classe linha, modulo-lista, linha-vet, coluna-dupla, inha-texto e tags h1, h2, h3, h4 e ul*/
+.linha h1, .linha h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-top: 40px;
+    color: #538166;
+    text-align: center;
+}
+
+.linha ul, .linha p{
+    width: 97%;
+    padding: 30px;
+}
+
+.linha h3, .modulo-lista h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #538166;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.linha h4 {
+    text-align: center;
+    padding-top: 20px;
+    color: #538166;
+}
+
+.linha-vet {
+    width: 50%;
+    float: left;
+}
+
+.linha-vet ul {
+    padding-left: 20px !important;
+}
+
+.linha .coluna-dupla {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.linha-texto {
+    padding: 20px;
+}
+
+/* Elementos da classe img-vet */
+.img-vet {
+    border-radius: 4px;
+    width: 350px;
+    height: 287px;
+}
+
+
+
+
+
+
+
+
+

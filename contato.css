@@ -1,0 +1,61 @@
+/* Elementos da classe menu */
+.menu {
+    width: 20%;
+    float: left;
+    background-color: #538166;
+    height: 161vh;
+}
+
+.linha-inicio {
+    padding: 20px;
+}
+
+.linha-inicio h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   color: #538166;
+}
+
+.mapa h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #538166;
+}
+
+.mapa {
+    width: 100%;
+    float: left;
+    padding: 20px;
+
+}
+
+.linha-mapa {
+    width: 50%;
+    float: left;
+}
+
+.linha-contato {
+    width: 50%;
+    float: right;
+}
+
+.linha-contato .campo div {
+    padding: 10px;
+}
+
+.linha-contato .campo div.div-topo {
+    padding-top: 0px;
+}
+
+.linha-contato input, .linha-contato textarea {
+    width: 70%;
+}
+
+.linha-contato .campo button {
+    padding: 5px;
+    width: 120px;
+    font-weight: bold;
+}
+
+.linha-contato .campo button:hover {
+    color: rgb(6, 197, 149);
+}

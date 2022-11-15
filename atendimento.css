@@ -1,0 +1,60 @@
+/* Elementos da classe menu */
+.menu {
+    width: 20%;
+    float: left;
+    background-color: #538166;
+    height: 167vh;
+}
+
+/* Elementos da classe main e tags h1 e h2 */
+.inicio h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #538166;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+/* Elementos da classe valor e tags h2 e p */
+.valor h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #538166;
+    padding-bottom: 35px;
+
+}
+
+.valor p {
+    padding: 20px;
+}
+
+/* Elementos da classe inicio */
+.inicio {
+    text-align: justify;
+    padding: 20px;
+   
+}
+
+/* Elementos da tag table, tr, td e th */
+table, tr, td, th {
+		border: #000 solid 1px;
+		width: 801px;
+		padding: 2px;
+		font-size: 15px;
+		border-collapse: collapse;
+        margin:auto;
+        
+}
+
+th {
+    background-color: black;
+    color: #FFF;
+}
+
+
+
+
+
+
+

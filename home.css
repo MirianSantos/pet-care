@@ -1,0 +1,45 @@
+/* Elementos da tag main */
+main .titulo {
+    line-height: 1.8em;
+    
+}
+
+/* Elementos da classe titulo, titulo-texto e tags div, h2 e h2 */
+.titulo h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #538166;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.titulo div {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo-texto h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #538166;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Elementos da classe img */
+.img-cat {
+    border-radius: 4px;
+    width: 400px;
+}
+
+.img-dog {
+    border-radius: 4px;
+    width: 600px;
+}
+
+/* Elementos da classe menu */ 
+.menu {
+    width: 20%;
+    float: left;
+    background-color: #538166;
+    height: 303vh;
+}

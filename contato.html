@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Vet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" type="text/css" href="contato.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="comum.css" media="screen">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <section class="menu">
+        <img id="logo" src="/img/petvet-logo.png" alt="logo"/>
+        <nav> 
+            <ul>
+                <li><a target="new" href="home.html">Home</a></li>
+                <li><a target="new" href="clinica.html">Sobre a Clínica</a></li>
+                <li><a target="new" href="atendimento.html">Horário de Atendimento</a></li>
+                <li><a target="new" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>   
+    </section>
+    <main>
+        <header class="titulo-img">
+            <img id="img-header" src="/img/header4.jpg" alt="img-header">
+            <div class="banner">
+                <h1>Clínica Veterinária 24h</h1>
+                <p>Pronto Socorro Veterinário 24h para pets de Uberlândia-MG</p>
+            </div>
+        </header>
+        <!-- estrutura da página -->
+        <div class="linha-inicio">
+            <h1><strong>Clínica Veterinária 24h</strong></h1><br>
+            <p>A saúde dos seus pets também é a sua prioridade? Então esse é o lugar para você e para o seu animal. Somos uma Clínica Veterinária, com Atendimento 24 horas, com diversas especialidades médicas e exames rápidos.</p><br>
+        </div>
+
+        
+
+        <div class="mapa">
+            <div class="linha-mapa">
+
+                <div class="linha-endereco">
+                    <h3>Nosso Endereço</h3><br>
+                    <address>Av Nicomedes Alves dos Santos, S/N.
+                        <br>
+                        Morada da Colina. Uberlândia.</address><br>
+
+                        <aside>
+                            <p>petvet@gmail.com
+                                <br>
+                                (34)3155-2811
+                                <br>
+                                (34)99352-2811
+                            </p>
+                        </aside><br>
+                </div>
+
+                
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.780714300526!2d-48.27606438538009!3d-18.941097987165477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a445273b5670f1%3A0xa5cb3b04e1dc7a21!2sAv.%20Nicomedes%20Alves%20dos%20Santos%20-%20Morada%20da%20Colina%2C%20Uberl%C3%A2ndia%20-%20MG!5e0!3m2!1sen!2sbr!4v1668508003584!5m2!1sen!2sbr" width="90%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+            </div>
+
+            <div class="linha-contato">
+                <form>
+                    <div class="campo">
+                        <div class="div-topo">
+                            <h3>Contato</h3>
+                        </div>
+                        <div>
+                            <input type="texto" name="nome" placeholder="Nome"/>
+                        </div> 
+                        <div>
+                            <input type="number" name="telefone" placeholder="Telefone"/>
+                        </div> 
+                        <div>
+                            <input type="texto" name="email" placeholder="Email"/>
+                        </div> 
+                        <div>
+                            <input type="texto" name="assunto" placeholder="Assunto"/>
+                        </div>
+                        <div>   
+                            <textarea rows="8" id="mensagem" name="mensagem">Mensagem</textarea>
+                        </div>
+                        <div>
+                            <button name="submit" class="botao" type="submit" onsubmit="enviar">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Rodapé -->
+        <footer>
+            <div class="localizacao">
+                <div class="localizacao-mapa">
+                    <span><i class="fa-solid fa-location-dot"></i>&nbsp; Onde Estamos</span>
+                    <address>Av Nicomedes Alves dos Santos, S/N.<br /> Morada da Colina. Uberlãndia.</address>
+                    <br>
+                </div>
+                <div class="localizacao-contato">
+                    <aside>
+                        <h3>Contato</h3>
+                        <p>petvet@gmail.com
+                            <br>
+                            (34)3155-2811
+                            <br>
+                            (34)99352-2811
+                        </p>
+                    </aside>
+                    <br>
+                    <div>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                        <span><i class="fa-brands fa-whatsapp"></i></span>
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
